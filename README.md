@@ -47,15 +47,10 @@ protect them.
 Open this folder in Android Studio and allow Gradle sync, or build with Gradle
 and Android SDK installed:
 
-```sh
-gradle assembleDebug
-```
+    gradle assembleDebug
 
 Run the unit tests and Android lint checks:
 
-```sh
-gradle testDebugUnitTest lintDebug
-```
+    gradle testDebugUnitTest lintDebug
 
-The debug APK is written to
-`app/build/outputs/apk/debug/app-debug.apk`.
+The debug APK is written to app/build/outputs/apk/debug/app-debug.apk.
